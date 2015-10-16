@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 213
+<?php // (C) Copyright Bobbing Wide 2013
 
 /** 
  * Implement [bw_blog] shortcode to select the blog to be used in subsequent shortcodes

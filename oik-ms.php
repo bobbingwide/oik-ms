@@ -2,8 +2,8 @@
 /*
 Plugin Name: oik-ms
 Plugin URI: http://www.oik-plugins.com/oik-plugins/oik-ms
-Description: oik multisite shortcode enablement
-Version: 0.1  
+Description: oik multisite shortcodes
+Version: 0.2  
 Author: bobbingwide
 Author URI: http://www.bobbingwide.com
 License: GPL2
@@ -53,6 +53,8 @@ function oik_ms_oik_blog_intercept( $blog ) {
  */
 function oik_ms_admin_menu() {
   oik_register_plugin_server( __FILE__ );
+  oik_require( "admin/oik-ms.php", "oik-ms" );
+  oik_ms_lazy_admin_menu();
 }
 
 /**
@@ -74,7 +76,7 @@ function oik_ms_activation() {
  */
 function oik_ms_plugin_loaded() {
   add_action( "admin_notices", "oik_ms_activation" );
-  //add_action( "oik_admin_menu", "oik_ms_admin_menu" );
+  add_action( "oik_admin_menu", "oik_ms_admin_menu" );
   add_action( "oik_loaded", "oik_ms_init" );
 }
 
