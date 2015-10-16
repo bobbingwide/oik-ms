@@ -2,9 +2,9 @@
 Contributors: bobbingwide, vsgloik
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcodes, smart, lazy
-Requires at least: 3.6
-Tested up to: 3.6.1
-Stable tag: 0.2
+Requires at least: 3.
+Tested up to: 4.3.1
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,12 @@ oik multisite shortcodes
 
 
 [bw_blogs] to list the WordPress MultiSite sites or a selected list using id=1,2,wpms
- 
+
+[bw_blogs 1,2 class=w50p2]
+[bw_logo link='/']
+[/bw_blogs]
+
+
 Now supports copying of oik options fields between sites. See oik options > overview
 
 
@@ -32,7 +37,7 @@ Now supports copying of oik options fields between sites. See oik options > over
 
 == Frequently Asked Questions ==
 = Does this plugin extend oik shortcodes? =
-In a future version of oik is will be possible to add blog=id/name to directly to the oik shortcode
+In a future version of oik it will be possible to add blog=id/name to directly to the oik shortcode
 
 = What happens if the shortcode used on another site is not available in the calling site? =
 Good question. It won't get expanded.
@@ -48,6 +53,9 @@ Not yet, but you can get the appearance of this limiting the number of items ret
 
 
 == Upgrade Notice ==
+= 0.2.1 =
+Upgrade for support for content expansion in [bw_blogs]
+
 = 0.2 =
 Developed for setting up the replacement bobbingwide.com website and other newly created WordPress Multi Site sites
 
@@ -56,6 +64,10 @@ This version is dependent upon the oik base plugin
  
 
 == Changelog == 
+= 0.2.1 = 
+* Added: [bw_blogs] supports content
+* Deleted: Removed redundant logic
+
 = 0.2 = 
 * Added: Dialog to copy options from a source site. Includes the ability to copy options, more option and even more options.
 * Added: Screenshots
