@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2013
+<?php // (C) Copyright Bobbing Wide 2013-2015
 
 /**
  * Implements "oik_admin_menu" action for oik-ms
@@ -14,7 +14,9 @@ function oik_ms_lazy_admin_menu() {
  * Implement "oik_menu_box" action for oik-ms
  */
 function oik_ms_menu_box() {
-  oik_box( NULL, NULL, "oik multi-site settings", "oik_ms_settings" );
+  if ( is_multisite() ) {
+    oik_box( NULL, NULL, "oik multi-site settings", "oik_ms_settings" );
+  }  
 }
 
 /** 
@@ -40,7 +42,9 @@ function oik_ms_settings() {
 }
 
 /**
- * Return an array of sites 
+ * Return an array of sites
+ *
+ * @return array array of site's blognames indexed by ID  
  */
 function oik_ms_site_list() {
   oik_require( "shortcodes/oik-blogs.php", "oik-ms" );
