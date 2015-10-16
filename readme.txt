@@ -2,7 +2,7 @@
 Contributors: bobbingwide, vsgloik
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcodes, smart, lazy
-Requires at least: 3.
+Requires at least: 4.2
 Tested up to: 4.3.1
 Stable tag: 0.2.1
 License: GPLv2 or later
@@ -67,6 +67,8 @@ This version is dependent upon the oik base plugin
 = 0.2.1 = 
 * Added: [bw_blogs] supports content
 * Deleted: Removed redundant logic
+* Tested: Now supported on WordPress 4.2 and above
+* Tested: Depends on oik v2.5 or higher
 
 = 0.2 = 
 * Added: Dialog to copy options from a source site. Includes the ability to copy options, more option and even more options.
