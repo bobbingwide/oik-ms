@@ -1,0 +1,23 @@
+== Upgrade Notice ==
+= 0.2.1 =
+Upgrade for support for content expansion in [bw_blogs]
+
+= 0.2 =
+Developed for setting up the replacement bobbingwide.com website and other newly created WordPress Multi Site sites
+
+= 0.1 =
+This version is dependent upon the oik base plugin
+
+== Changelog == 
+= 0.2.1 = 
+* Added: [bw_blogs] supports content
+* Deleted: Removed redundant logic
+* Tested: Now supported on WordPress 4.2 and above
+* Tested: Depends on oik v2.5 or higher
+
+= 0.2 = 
+* Added: Dialog to copy options from a source site. Includes the ability to copy options, more option and even more options.
+* Added: Screenshots
+
+= 0.1 =
+* Added: brand new code

@@ -1,17 +1,17 @@
 <?php 
 /*
 Plugin Name: oik-ms
-Plugin URI: http://www.oik-plugins.com/oik-plugins/oik-ms
+Plugin URI: https://www.oik-plugins.com/oik-plugins/oik-ms
 Description: oik multisite shortcodes
-Version: 0.2.1
+Version: 0.2.2
 Author: bobbingwide
-Author URI: http://www.oik-plugins.com/author/bobbingwide
+Author URI: https://bobbingwide.com/about-bobbing-wide
 Text Domain: oik-ms
 Domain Path: /languages/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2013-2015 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2013-2015, 2023 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
